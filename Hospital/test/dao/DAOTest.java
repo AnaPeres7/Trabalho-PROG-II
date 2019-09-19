@@ -39,13 +39,14 @@ public class DAOTest {
     public void tearDown() {
     }
 
-    @Test
-    public void testSomeMethod() {
-        Administrador adm = new Administrador();
-        DAO<Administrador> dao= new DAO(Administrador.class);
-        dao.insert(adm);
-        
-    }
+//    @Test
+//    public void testSomeMethod() {
+//        Administrador adm = new Administrador();
+//        adm.setNome("xcxcxcx");
+//        DAO<Administrador> dao= new DAO(Administrador.class);
+//        dao.insert(adm);
+//        
+//    }
     @Test 
     public void testListar(){
         List<Administrador>lista = new DAO (Administrador.class).listarTodos();
