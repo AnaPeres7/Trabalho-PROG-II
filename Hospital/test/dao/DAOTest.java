@@ -42,7 +42,9 @@ public class DAOTest {
 //    @Test
 //    public void testSomeMethod() {
 //        Administrador adm = new Administrador();
-//        adm.setNome("xcxcxcx");
+//        adm.setLogin("eu");
+//        adm.setNome("eu");
+//        adm.setSenha("eu");
 //        DAO<Administrador> dao= new DAO(Administrador.class);
 //        dao.insert(adm);
 //        
